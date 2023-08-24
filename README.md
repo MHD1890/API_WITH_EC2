@@ -22,5 +22,12 @@ package_upgrade: true
 runcmd:
 - sudo yum -y update
 - sudo yum install -y gcc-c++ make
-- curl -o- https://nodejs.org/dist/v16.8.0/node-v16.8.0.tar.gz | tar -xz
+- curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+- yum install -y nodejs
+- yum install -y git
+- git clone https://github.com/MHD1890/API_WITH_EC2.git
+- cd API_WITH_EC2
+- npm i
+- node .
+note (API LISTERNING IN PORT 5001)
 
