@@ -31,3 +31,5 @@ runcmd:
 - node .
 note (API LISTERNING IN PORT 5001)
 
+
+![Untitled](https://github.com/MHD1890/API_WITH_EC2/assets/140581107/1186f062-0867-4473-8b83-96d69a91b692)
